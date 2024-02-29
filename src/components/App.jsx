@@ -9,6 +9,7 @@ import styles from './App.module.css';
 import { addContact, deleteContact } from '../redux/contactsSlice';
 import { setFilter } from '../redux/filterSlice';
 
+
 const App = () => {
   const contacts = useSelector(state => state.contacts);
   const filter = useSelector(state => state.filter);
